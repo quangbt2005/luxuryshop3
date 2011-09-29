@@ -578,7 +578,7 @@ table.product_intro{}
 .product_intro td,.product_intro th{
   /*color: #a8dcdf;*/
   color: #000000;
-  font: normal 11px/18px Arial;
+  font: normal 12px/18px Arial;
   vertical-align: top;
   text-align: left;
 }
