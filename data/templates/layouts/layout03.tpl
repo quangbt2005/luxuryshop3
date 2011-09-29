@@ -21,7 +21,8 @@
 <div id="allscreen">
   <div id="theme_background">
     <div id="theme_right">
-    <div id="body_bottom">
+    <div id="body_background">
+     <div id="body_bottom">
       <div id="body_top">
         <div id="body_left">
           <div id="body_right">
@@ -35,6 +36,7 @@
           </div>
         </div>
       </div>
+     </div>
     </div>
     </div>
   </div>
