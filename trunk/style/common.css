@@ -36,6 +36,10 @@ ul.categories li a:hover{color: red;}
   height: 246px;
   background:url("/images/kittytheme.jpg") no-repeat scroll right top transparent;*/
 }
+#body_background{
+  width: 978px;
+  background:url("/images/aqua_texture.jpg") repeat scroll right bottom transparent;
+}
 #body_top{
   width: 978px;
   background:url("/images/body_top.png") no-repeat scroll left top transparent;
@@ -56,7 +60,7 @@ ul.categories li a:hover{color: red;}
 }
 #allcontent{
   z-index: 10;
-  background-color: #6dbfbc;
+  /*background-color: #6dbfbc;*/
   width:960px
 }
 #allheader{
@@ -77,7 +81,7 @@ ul.categories li a:hover{color: red;}
 #allcenter{
   float: left;
   width:717px;
-  background-color: #6dbfbc;
+  /*background-color: #6dbfbc;*/
   margin: 5px 0 5px 1px;
 }
 #allfooter{clear: both;width:960px;}
@@ -156,7 +160,8 @@ div.container{padding: 0px;background-color: #f8ffd9;border: 1px solid #E9EE88;}
 {
   width: 356px;
   height: 250px;
-  background-color: #6dbfbc;
+  /*background-color: #6dbfbc;*/
+  background:url("/images/aqua_texture.jpg") repeat scroll right bottom transparent;
   float: left;
   margin: 1px 0 0 1px;
   /*font:bold 11px/28px Tahoma;*/
@@ -215,10 +220,10 @@ div.container{padding: 0px;background-color: #f8ffd9;border: 1px solid #E9EE88;}
   padding: 0;
   padding-right: 10px;
 }
-div.titleheader{width: 100%;padding: 10px 5px;margin: 0;background-color: #2a3e4f;}
+div.titleheader{width: 100%;padding: 10px 0px;margin: 0;background-color: #2a3e4f;}
 .product a{ text-decoration:none; color:#ff0000; }
 
-.wrapper{float: left;background-color: #e6f3f3;padding: 0 0 1px 0;}
+.wrapper{float: left;background-color: #00aecf;padding: 0 0 1px 0;}
 div.clear{clear: both;}
 div.seperator{clear: both;width:1px;height:10px;}
 td.title-center
@@ -572,7 +577,7 @@ a.saleofflink:hover{color:#f06a19;}
 table.product_intro{}
 .product_intro td,.product_intro th{
   /*color: #a8dcdf;*/
-  color: #ffffff;
+  color: #000000;
   font: normal 11px/18px Arial;
   vertical-align: top;
   text-align: left;
