@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond  %{REQUEST_URI} !product_thumb.php
+RewriteCond  %{REQUEST_URI} !captcha.php
+RewriteCond  %{REQUEST_URI} !favico.ico
+RewriteCond  %{REQUEST_URI} !source_editor.htm
+RewriteCond  %{REQUEST_URI} !link.htm
+RewriteCond  %{REQUEST_URI} !image.htm
+RewriteCond  %{REQUEST_URI} !upload_product_image.php
+
+RewriteRule !\.(js|ico|txt|gif|jpg|png|bmp|css|swf)$ index.php [NC]
+#php_value magic_quotes_gpc on

@@ -1,0 +1,110 @@
+.arrowsidemenu{
+  width: 230px; /*width of menu*/
+  /*border-style: solid solid none solid;
+  border-color: #94AA74;
+  border-size: 1px;
+  border-width: 1px;*/
+  text-align: left;
+}
+
+.arrowsidemenu div a{ /*header bar links*/
+  font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+  display: block;
+  background: transparent url(/images/arrowgreen.png) 100% 0;
+  height: 24px; /*Set to height of bg image-padding within link (ie: 32px - 4px - 4px)*/
+  padding: 4px 0 4px 10px;
+  line-height: 24px; /*Set line-height of bg image-padding within link (ie: 32px - 4px - 4px)*/
+  text-decoration: none;
+  text-align: left;
+  outline: none;
+}
+
+.arrowsidemenu div a:link, .arrowsidemenu div a:visited{
+  color: #26370A;
+  outline: none;
+}
+
+.arrowsidemenu div a:hover{
+  background-position: 100% -32px;
+  outline: none;
+}
+
+.arrowsidemenu div.headerlevel1unselected a{ /*header that's currently not selected*/
+  color: #0000ff;
+  outline: none;
+}
+
+
+.arrowsidemenu div.headerlevel1selected a{ /*header that's currently selected*/
+  color: #ff8200;
+  background-position: 100% -64px !important;
+  outline: none;
+}
+
+.arrowsidemenu ul li ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.arrowsidemenu ul li a.headerlevel2unselected{ /*header that's currently not selected*/
+  color: #ff8200;
+  background-position: 100% -128px !important;
+  outline: none;
+}
+
+
+.arrowsidemenu ul li a.headerlevel2selected{ /*header that's currently selected*/
+  color: #ff8200;
+  background-position: 100% -160px !important;
+  outline: none;
+}
+
+.arrowsidemenu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.arrowsidemenu ul li{
+  /*border-bottom: 1px solid #a1c67b;*/
+}
+
+
+.arrowsidemenu ul li a{ /*sub menu links*/
+  display: block;
+  font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  /*padding: 5px 0;
+  padding-left: 10px;*/
+  padding: 4px 0 4px 35px;
+  /*border-left: 10px double #a1c67b;*/
+  background: transparent url(/images/arrowgreen.png) 100% 0;
+  background-position: 0 -96px !important;
+  height: 24px; /*Set to height of bg image-padding within link (ie: 32px - 4px - 4px)*/
+  line-height: 24px; /*Set line-height of bg image-padding within link (ie: 32px - 4px - 4px)*/
+  outline: none;
+}
+.arrowsidemenu ul li ul li a{ /*sub menu links*/
+  display: block;
+  font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  /*padding: 5px 0;
+  padding-left: 10px;*/
+  padding: 4px 0 4px 50px;
+  /*border-left: 10px double #a1c67b;*/
+  background: transparent url(/images/arrowgreen.png) 100% 0;
+  background-position: 0 -192px !important;
+  height: 24px; /*Set to height of bg image-padding within link (ie: 32px - 4px - 4px)*/
+  line-height: 24px; /*Set line-height of bg image-padding within link (ie: 32px - 4px - 4px)*/
+  outline: none;
+}
+.arrowsidemenu ul li a:hover{
+  /*background: #d5e5c1;*/
+  color: #aed900;
+  outline: none;
+}
