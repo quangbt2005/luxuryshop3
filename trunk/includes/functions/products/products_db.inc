@@ -5,6 +5,24 @@
 // ---------------------------------------------------------------------------------------------- //
 // Find category which product is belong to
 // ---------------------------------------------------------------------------------------------- //
+function Count_ProductsTotal()
+{
+  $SQL  = "SELECT COUNT(1) FROM " . TBL_PRODUCTS . " p ";
+  $SQL .= "  INNER JOIN " . TBL_PRO2CAT . " pc ";
+  $SQL .= "  ON(p.products_id = pc.products_id)";
+  // e($SQL);
+  //------------------------------------------------------------------//
+  // Execute query
+  //------------------------------------------------------------------//
+  $Result = P_MySQL_Real_SELECT( $SQL ) ;
+
+  if(!empty($Result[0]))
+  {
+    return $Result[0] ;
+  }
+  return 0 ;
+}
+// ---------------------------------------------------------------------------------------------- //
 function FindNewProducts($category=0, $offset=0, $limit=10)
 {
   global $languages_id;

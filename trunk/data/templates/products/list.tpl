@@ -21,7 +21,7 @@
   </div>
   <div class="clear"></div>
   {$pager}<div class="clear"></div>
-  <div class="t-right" style="width: 713px;"><span class="f10"><font color="white">Hiển thị {$product_count} sản phẩm từ {$product_from} đến {$product_to} trong tổng số {$total_products} sản phẩm</font></span></div>
+  <div class="t-right" style="width: 713px;"><span class="f10"><font color="black">Hiển thị {$product_count} sản phẩm từ {$product_from} đến {$product_to} trong tổng số {$total_products} sản phẩm</font></span></div>
   {else}
   <div style="width: 715px; margin-left: 1px;">
   {TitleBox title=$cat_name}
