@@ -74,9 +74,9 @@ ul.categories li a:hover{color: red;}
   margin: 5px 1px 5px 0;
   /*background-color: #ccf4f3;*/
   background-color: #006f8e;
-  min-height:1293px;
+  min-height:1295px;
   height:auto !important;
-  height:1293px;
+  height:1295px;
 }
 #allcenter{
   float: left;
@@ -375,8 +375,8 @@ li.bg_list{
 /* TABLE PAGER
 /* --------------------------------------------------------------------------------------------- */
 table .pager{}
-.pager td a,.pager td a:visited{color: #a8dcdf;}
-.pager td {color: #ffffff;}
+.pager td a,.pager td a:visited{color: blue;}
+.pager td {color: #000000;}
 /* --------------------------------------------------------------------------------------------- */
 /* TABLE LIST
 /* --------------------------------------------------------------------------------------------- */

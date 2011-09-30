@@ -6,6 +6,7 @@
 // ROUTE
 // ---------------------------------------------------------------------------------------------- //
 $Routes = array(
+      "/home/:page"                        => array('module'=>'home',      'page'=>'default'),
       "/sanpham/danhsach/:catid/:page"     => array('module'=>'products',  'page'=>'list'),
       "/sanpham/danhsach/:catid"           => array('module'=>'products',  'page'=>'list'),
       "/sanpham/:productid/chitiet"        => array('module'=>'products',  'page'=>'detail'),
@@ -257,9 +258,9 @@ $Footer_Map = array(
 // TITLE
 // ---------------------------------------------------------------------------------------------- //
 $Title_Map = array(
-      "default"     => "LUXURY SHOP",
-      "admin"       => "LUXURY SHOP - Quan Tri",
-      "adminpopup"  => "LUXURY SHOP - Quan Tri",
-      "test"        => "LUXURY SHOP - Test",
+      "default"     => "LUXURY STORE",
+      "admin"       => "LUXURY STORE - Quan Tri",
+      "adminpopup"  => "LUXURY STORE - Quan Tri",
+      "test"        => "LUXURY STORE - Test",
 );
 ?>
