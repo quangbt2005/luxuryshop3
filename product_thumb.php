@@ -61,7 +61,7 @@ $y = imagesy($imorig);
 $w  = empty($_GET['w']) ? $x : $_GET['w'];
 $h  = empty($_GET['h']) ? $y : $_GET['h'];
 $ma = empty($_GET['ma']) ? 500 : $_GET['ma'];
-$isTransparent = isset($_GET['trsp']) ? 1 : 0;
+$isTransparent = isset($_GET['trsp']) ? $_GET['trsp'] : 1;
 $colorHex = isset($_GET['cl']) ? $_GET['cl'] : $defaultBackground;
 // ---------------------------------------------------------------------------------------------- //
 if($h=='auto' && is_numeric($w))
