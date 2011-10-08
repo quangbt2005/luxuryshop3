@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.20, created on 2011-09-30 06:34:28
+<?php /* Smarty version 2.6.20, created on 2011-10-02 04:53:52
          compiled from footer/footer1.tpl */ ?>
 <div id="footer">
   <table width="940" cellspacing="0" cellpadding="0" border="0">

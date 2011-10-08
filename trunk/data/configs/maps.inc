@@ -258,9 +258,9 @@ $Footer_Map = array(
 // TITLE
 // ---------------------------------------------------------------------------------------------- //
 $Title_Map = array(
-      "default"     => "LUXURY STORE",
-      "admin"       => "LUXURY STORE - Quan Tri",
-      "adminpopup"  => "LUXURY STORE - Quan Tri",
-      "test"        => "LUXURY STORE - Test",
+      "default"     => "DONG HO DANG CAP - ĐỒNG HỒ ĐẲNG CẤP",
+      "admin"       => "DONG HO DANG CAP - ĐỒNG HỒ ĐẲNG CẤP - Quan Tri",
+      "adminpopup"  => "DONG HO DANG CAP - ĐỒNG HỒ ĐẲNG CẤP - Quan Tri",
+      "test"        => "DONG HO DANG CAP - ĐỒNG HỒ ĐẲNG CẤP - Test",
 );
 ?>
