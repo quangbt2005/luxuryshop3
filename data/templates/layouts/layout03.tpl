@@ -9,7 +9,6 @@
   <link rel="StyleSheet" href="/style/common.css" type="text/css" />
   <link rel="stylesheet" href="/style/jquery-autoscroller/css.css" type="text/css" />
   <link rel="stylesheet" href="/style/ddaccordion/styles.css" type="text/css" />
-  <link rel="stylesheet" href="/style/scrollmenu/styles.css" type="text/css" />
   <script type="text/javascript" src="/jscripts/jquery/jquery-1.4.2.js"></script>
   <script type="text/javascript" src="/jscripts/jquery/jquery.smoothDivScroll-1.0.js"></script>
   <script type="text/javascript" src="/jscripts/jquery/ddaccordion.js"></script>

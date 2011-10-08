@@ -1,19 +1,9 @@
-<?php /* Smarty version 2.6.20, created on 2011-09-30 06:33:06
+<?php /* Smarty version 2.6.20, created on 2011-10-08 12:49:57
          compiled from header/header1.tpl */ ?>
 <table width="100%" cellpadding="0" cellspacing="0" class="tbl_top_h_l" border="0">
   <tr>
     <td class="tbl_top_h_r">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0">
-        <tr>
-          <td width="629">&nbsp;</td>
-          <td width="305" style="height: 170px;color: yellow" valign="top" align="left">
-            <h2>VNBROTHER.NET</h2>
-            <h3>&nbsp;&nbsp;&nbsp;&nbsp;CALL: 01.222.555.888</h3>
-            <h3>&nbsp;&nbsp;&nbsp;&nbsp;SMS: 01.222.555.888</h3>
-          </td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
+      <embed src="/images/BANNER.swf" quality="high" type="application/x-shockwave-flash" wmode="transparent" width="960" height="280" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="always"></embed>
     </td>
   </tr>
 </table>

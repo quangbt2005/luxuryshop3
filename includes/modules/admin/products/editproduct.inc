@@ -29,6 +29,7 @@ if(!empty($product)){
 
     // ------------------------------------------------------------------------------------------ //
     if(get_magic_quotes_gpc() == 1) $product_description = stripslashes($product_description);
+    if(get_magic_quotes_gpc() == 1) $product_intro = stripslashes($product_intro);
     // ------------------------------------------------------------------------------------------ //
 
     if(empty($product_name)) $errors[] = 'Vui lòng nhập tên sản phẩm';
