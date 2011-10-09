@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.20, created on 2011-10-02 04:53:52
+<?php /* Smarty version 2.6.20, created on 2011-10-09 08:30:01
          compiled from layouts/layout03.tpl */ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml2/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
@@ -11,7 +11,6 @@
   <link rel="StyleSheet" href="/style/common.css" type="text/css" />
   <link rel="stylesheet" href="/style/jquery-autoscroller/css.css" type="text/css" />
   <link rel="stylesheet" href="/style/ddaccordion/styles.css" type="text/css" />
-  <link rel="stylesheet" href="/style/scrollmenu/styles.css" type="text/css" />
   <script type="text/javascript" src="/jscripts/jquery/jquery-1.4.2.js"></script>
   <script type="text/javascript" src="/jscripts/jquery/jquery.smoothDivScroll-1.0.js"></script>
   <script type="text/javascript" src="/jscripts/jquery/ddaccordion.js"></script>
