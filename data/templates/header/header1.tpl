@@ -1,4 +1,4 @@
-<div><embed src="/images/banner_f12.swf" quality="high" type="application/x-shockwave-flash" wmode="transparent" width="960" height="280" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="always"></embed></div>
+<div><embed src="/images/banner_f13.swf" quality="high" type="application/x-shockwave-flash" wmode="transparent" width="960" height="280" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="always"></embed></div>
 <div class="w100p" style="margin-top: 2px">
   <div id="marquee_wrapper">
     <marquee>{$_MARQUEE}</marquee>
