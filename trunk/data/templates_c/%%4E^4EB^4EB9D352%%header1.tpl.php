@@ -1,6 +1,6 @@
-<?php /* Smarty version 2.6.20, created on 2011-10-09 08:34:40
+<?php /* Smarty version 2.6.20, created on 2011-10-12 09:03:09
          compiled from header/header1.tpl */ ?>
-<div><embed src="/images/luxury_banner.swf" quality="high" type="application/x-shockwave-flash" wmode="transparent" width="960" height="280" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="always"></embed></div>
+<div><embed src="/images/banner_f13.swf" quality="high" type="application/x-shockwave-flash" wmode="transparent" width="960" height="280" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="always"></embed></div>
 <div class="w100p" style="margin-top: 2px">
   <div id="marquee_wrapper">
     <marquee><?php echo $this->_tpl_vars['_MARQUEE']; ?>
