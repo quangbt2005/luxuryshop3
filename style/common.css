@@ -1,4 +1,9 @@
-body{font-family: Tahoma;background-color: #ff8200;color: #A7D8FF}
+body{
+  font-family: Tahoma;
+  /*background-color: #ff8200;*/
+  background:url("/images/theme_bkg_6.png") repeat scroll left top #ff8200;
+  color: #A7D8FF
+}
 div{margin: 0px auto;text-align: center;padding: auto;background-color: transparent;}
 img{padding:0;margin:0}
 /*table {font:bold 11px/14px Tahoma;}*/
