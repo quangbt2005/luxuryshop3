@@ -10,7 +10,7 @@
         <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left">
           <tr><td style="padding-top: 5px;height:38px;color:red" valign="top" align="left"><strong>{$product.products_name}</strong></td></tr>
           <tr><td style="padding: 5px 3px 5px 5px;height:130px;" valign="top" align="left">{$product.products_intro}</td></tr>
-          <tr><td style="padding: 5px 3px 5px 5px;color: #00ff00;" valign="top" align="left"><strong>GIÁ: {number_format number=$product.products_price}</strong></td></tr>
+          <tr><td style="padding: 5px 3px 5px 5px;color: #01AE2B;font: bold 20px/18px Arial;" valign="top" align="left"><strong>GIÁ: {number_format number=$product.products_price}</strong></td></tr>
         </table>
       </td>
     </tr>

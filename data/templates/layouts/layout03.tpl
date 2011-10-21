@@ -3,9 +3,9 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="robots" content="index, follow" />
-  <meta name="keywords" content="dong ho cao cap, but cao cap, mont blanc, rolex, patek philippe, vacheron constantin, chopard, jaeger lecoultre" />
-  <meta name="description" content="MUA - BÁN - TRAO ĐỔI - SỬA CHỮA CÁC SẢN PHẨM ĐỒNG HỒ, BÚT CAO CẤP CHÍNH HÃNG" />
-  <h1 style="POSITION: absolute;LEFT: -999em;">MUA - BÁN - TRAO ĐỔI - SỬA CHỮA CÁC SẢN PHẨM ĐỒNG HỒ, BÚT CAO CẤP CHÍNH HÃNG</h1>
+  <meta name="keywords" content="sieu dang cap,dong ho cao cap,but cao cap,mont blanc,rolex,patek philippe,vacheron constantin,chopard,jaeger lecoultre,st dupont,starwalker" />
+  <meta name="description" content="MUA - BÁN - TRAO ĐỔI CÁC SẢN PHẨM ĐỒNG HỒ, BÚT CAO CẤP CHÍNH HÃNG - ĐỒNG HỒ ĐẲNG CẤP - SIÊU ĐẲNG CẤP - BÚT KÝ" />
+  <h1 style="POSITION: absolute;LEFT: -999em;">MUA - BÁN - TRAO ĐỔI CÁC SẢN PHẨM ĐỒNG HỒ, BÚT CAO CẤP CHÍNH HÃNG - ĐỒNG HỒ ĐẲNG CẤP - SIÊU ĐẲNG CẤP - BÚT KÝ</h1>
   <link rel="StyleSheet" href="/style/common.css" type="text/css" />
   <link rel="stylesheet" href="/style/jquery-autoscroller/css.css" type="text/css" />
   <link rel="stylesheet" href="/style/ddaccordion/styles.css" type="text/css" />
