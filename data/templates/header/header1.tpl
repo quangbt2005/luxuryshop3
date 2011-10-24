@@ -8,6 +8,6 @@
     <ul class="headerNavigation">
       <li style="border-right: 1px solid #cccccc"><a href="/home">TRANG CHỦ</a></li>
       <li style="border-right: 1px solid #cccccc"><a href="/dichvu">DỊCH VỤ</a></li>
-      <li><a href="#">LIÊN HỆ</a></li>
+      <li><a href="/lienhe">LIÊN HỆ</a></li>
     </ul>
 </div>

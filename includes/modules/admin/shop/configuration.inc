@@ -23,6 +23,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
   if(get_magic_quotes_gpc() == 1) $service = stripslashes($service);
   DB_Update('configuration', array('configuration_key' => 'SERVICE'),
                              array('configuration_value' => $service));
+  $contact = $_POST['txtContact'];
+  if(get_magic_quotes_gpc() == 1) $contact = stripslashes($contact);
+  DB_Update('configuration', array('configuration_key' => 'CONTACT'),
+                             array('configuration_value' => $contact));
 
   $topMarquee = $_POST['txtTopMarquee'];
   if(get_magic_quotes_gpc() == 1) $topMarquee = stripslashes($topMarquee);

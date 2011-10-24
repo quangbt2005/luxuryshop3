@@ -41,6 +41,12 @@ CKEDITOR.on( 'instanceReady', function( ev )
           </td>
         </tr>
         <tr>
+          <th valign="top" align="right" style="padding-right: 5px">Liên hệ</th>
+          <td colspan="3">
+            <textarea name="txtContact" rows="2" class="ckeditor" style="width: 560px;">{$CONTACT}</textarea>
+          </td>
+        </tr>
+        <tr>
           <th valign="top" align="right" style="padding-right: 5px">Marquee</th>
           <td colspan="3">
             <textarea name="txtTopMarquee" rows="2" class="ckeditor" style="width: 560px;">{$TOP_MARQUEE}</textarea>
