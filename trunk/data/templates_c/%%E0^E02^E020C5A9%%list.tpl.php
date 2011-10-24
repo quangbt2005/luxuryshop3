@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.20, created on 2011-09-30 06:38:35
+<?php /* Smarty version 2.6.20, created on 2011-10-24 07:07:42
          compiled from products/list.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'TitleBox', 'products/list.tpl', 3, false),array('function', 'number_format', 'products/list.tpl', 15, false),)), $this); ?>

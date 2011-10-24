@@ -215,8 +215,8 @@ div.container{padding: 0px;background-color: #f8ffd9;border: 1px solid #E9EE88;}
 }
 .product .price_and_button .product_price{
   width:130px;
-  font:bold 15px/18px Arial;
-  color:#00ff00;
+  font:bold 20px/18px Arial;
+  color:#01ae2b;
   text-align: center;
 }
 .product .price_and_button .product_detail_button{
@@ -225,7 +225,14 @@ div.container{padding: 0px;background-color: #f8ffd9;border: 1px solid #E9EE88;}
   padding: 0;
   padding-right: 10px;
 }
-div.titleheader{width: 100%;padding: 10px 0px;margin: 0;background-color: #2a3e4f;}
+div.titleheader{
+  width: 100%;
+  padding: 10px 0px;
+  margin: 0;
+  background-color: #2a3e4f;
+  color: #fff;
+  font-weight: bold;
+}
 .product a{ text-decoration:none; color:#ff0000; }
 
 .wrapper{float: left;background-color: #00aecf;padding: 0 0 1px 0;}
@@ -430,7 +437,7 @@ table.register td{padding: 5px;text-align: left;}
 .success_field{ font-family: Arial, sans-serif; font-size: 11px; background-color: #99FF00; padding: 5px 0;}
 .inputRequirement{font:normal 10px/20px Arial; padding: 3px; color: red;}
 .orderEdit { font-family : Arial, sans-serif; font-size : 10px; color: #70d250; text-decoration: underline; }
-.bigtitle{font-family: Arial, sans-serif;font-size: 20px;font-weight: bold;}
+.bigtitle{font-family: Arial, sans-serif;font-size: 20px;font-weight: bold;color:#01ae2b;}
 .tumlum1{font:normal 16px/28px Tahoma;color: #000000;}
 /* --------------------------------------------------------------------------------------------- */
 /* TABLE CHAT
