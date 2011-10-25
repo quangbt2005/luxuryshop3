@@ -611,3 +611,15 @@ table.product_description{}
   font-weight: bold;
 }
 /* --------------------------------------------------------------------------------------------- */
+.href_home{
+  background: url("/images/icons/1319531542_house_home.png") no-repeat scroll 8px 2px transparent;
+  padding-left: 45px !important;
+}
+.href_service{
+  background: url("/images/icons/1319531948_folder_green.png") no-repeat scroll 8px 4px transparent;
+  padding-left: 45px !important;
+}
+.href_contact{
+  background: url("/images/icons/1319531281_logo.png") no-repeat scroll 8px 4px transparent;
+  padding-left: 45px !important;
+}

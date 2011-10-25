@@ -6,8 +6,8 @@
 </div>
 <div class="headerNavigation" style="margin: 0px">
     <ul class="headerNavigation">
-      <li style="border-right: 1px solid #cccccc"><a href="/home">TRANG CHỦ</a></li>
-      <li style="border-right: 1px solid #cccccc"><a href="/dichvu">DỊCH VỤ</a></li>
-      <li><a href="/lienhe">LIÊN HỆ</a></li>
+      <li style="border-right: 1px solid #cccccc"><a href="/home" class="href_home">TRANG CHỦ</a></li>
+      <li style="border-right: 1px solid #cccccc"><a href="/dichvu" class="href_service">DỊCH VỤ</a></li>
+      <li><a href="/lienhe" class="href_contact">LIÊN HỆ</a></li>
     </ul>
 </div>
