@@ -1,7 +1,8 @@
 body{
   font-family: Tahoma;
   /*background-color: #ff8200;*/
-  background:url("/images/theme_bkg_6.png") repeat scroll left top #ff8200;
+  /*background:url("/images/theme_bkg_6.png") repeat scroll left top #ff8200;*/
+  background:url("/images/theme_bkg_6.png") repeat scroll left top #00ff80;
   color: #A7D8FF
 }
 div{margin: 0px auto;text-align: center;padding: auto;background-color: transparent;}
@@ -139,7 +140,7 @@ div.headerNavigation {
 }
 ul.headerNavigation{padding:13px 0 10px 0;margin-left:0;}
 ul.headerNavigation li{display: inline;}
-ul.headerNavigation li a{padding: 10px 20px;text-decoration: none;color: white;}
+ul.headerNavigation li a{padding: 10px 20px;text-decoration: none;color: #001eff;}
 ul.headerNavigation li a:hover{color: yellow;text-decoration: none;}
 
 div.fix_height_container
@@ -620,6 +621,6 @@ table.product_description{}
   padding-left: 45px !important;
 }
 .href_contact{
-  background: url("/images/icons/1319531281_logo.png") no-repeat scroll 8px 4px transparent;
+  background: url("/images/icons/1319531337_yellow_phone.png") no-repeat scroll 8px 4px transparent;
   padding-left: 45px !important;
 }
