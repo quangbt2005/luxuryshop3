@@ -5,7 +5,7 @@
       <td align="right">&nbsp;</td>
     </tr>
     <tr>
-      <td align="left"><span class="copyright">Copyright © 2011 DANGCAP <a href="http://vnbrother.net" target="_blank" title="VNBROTHER.NET"><font color="#A7D8FF"><strong><u>Powered by VNBROTHER.NET</u></strong></font></a></span></td>
+      <td align="left"><span class="copyright">Copyright © 2011 DANGCAP</span></td>
       <td align="right">&nbsp;</td>
     </tr>
   </table>
