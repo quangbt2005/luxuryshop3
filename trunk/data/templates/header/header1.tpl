@@ -1,4 +1,5 @@
-<div><embed src="/images/banner_f17.swf" quality="high" type="application/x-shockwave-flash" wmode="transparent" width="960" height="280" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="always"></embed></div>
+<div><embed src="/images/banner_f18.swf" quality="high" type="application/x-shockwave-flash" wmode="transparent" width="960" height="280" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="always"></embed></div>
+<div style="position: absolute; top: 29px; left: 665px;"><img src="/images/sdc_logo_small.png" border="0"></div>
 <div class="w100p" style="margin-top: 2px">
   <div id="marquee_wrapper">
     <marquee>{$_MARQUEE}</marquee>
