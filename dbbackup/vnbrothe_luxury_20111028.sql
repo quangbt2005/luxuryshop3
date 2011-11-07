@@ -791,6 +791,7 @@ CREATE TABLE `chat` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `chatter` varchar(512) DEFAULT NULL,
   `chatter_code` bigint(20) DEFAULT NULL,
+  `avatar` varchar(512) DEFAULT NULL,
   `content` text,
   `createddate` datetime DEFAULT NULL,
   `deleted` enum('0','1') DEFAULT '0',

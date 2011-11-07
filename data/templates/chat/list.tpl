@@ -5,7 +5,7 @@
   CKEDITOR.replace( 'ckChat',
     {
       uiColor : '#9AB8F3',
-      width: 547,
+      width: 715,
       toolbar: 'Enough4Chat',
     } );
   });
@@ -30,11 +30,11 @@
   }
   </script>
   {/literal}
-  <div class="wrapper" style="width: 547px; margin-left: 1px;">
-  {TitleBox title="Chia Sẻ Kinh Nghiệm"}
+  <div class="wrapper" style="width: 715px; margin-left: 1px;">
+  {TitleBox title="Feedback"}
   <table cellpadding="0" cellspacing="0" width="100%" class="chat">
     {if $error != ''}
-    <tr><td><br /><font color="red"><h2>&nbsp;&nbsp;&nbsp;&nbsp;Mã an toàn không đúng</h2></font></td></tr>
+    <tr><td><br /><font color="red"><h2>&nbsp;&nbsp;&nbsp;&nbsp;Mã khách hàng không đúng</h2></font></td></tr>
     {/if}
     <tr>
       <td style="padding: 10px">
@@ -70,20 +70,23 @@
       <td colspan="2" style="padding-top: 20px"><textarea id="ckChat" name="ckChat"></textarea></td>
     </tr>
     <tr>
-      <td align="left" width="30%" valign="top">
-        <table cellpadding="0" cellspacing="0" width="100%" border="0">
-          <tr><td valign="top" align="left">Tên người viết</td></tr>
-          <tr><td valign="top" align="left"><input type="text" name="txtChatter" class="flat w200" onblur="onNameBlur()" value="Guest"></td></tr>
-        </table>
-      </td>
-      <td align="left" valign="top">
-        <table cellpadding="0" cellspacing="0" width="100%" border="0">
-          <tr><td valign="top" align="left" colspan="2">Mã an toàn</td></tr>
-          <tr>
-            <td width="130" valign="top" align="left"><img src="/captcha.php?name=chatting"></td>
-            <td align="left" valign="top"><input name="code" type="text" class="flat w50"></td>
-          </tr>
-        </table>
+      <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="2"><table cellpadding="0" cellspacing="10" border="0">
+        <tr>
+          <td align="left">Tên khách hàng</td>
+          <td align="left"><input type="text" name="txtChatter" class="flat w200" onblur="onNameBlur()" value="Guest"></td></tr>
+        </tr>
+        <tr>
+          <td align="left">Avatar</td>
+          <td align="left"><input type="file" name="txtAvatar" class="flat w200">&nbsp;&nbsp;(Kích thước không lớn hơn 30KB)</td></tr>
+        </tr>
+        <tr>
+          <td align="left">Mã khách hàng</td>
+          <td align="left"><input name="code" type="text" class="flat w150 t-right"></td>
+        </tr>
+      </table></td>
     </tr>
     <tr>
       <td colspan="2" style="padding-top: 20px" align="center"><input onclick="return onChatSubmit();" type="submit" class="w120" value="Gửi bài viết"></td>
