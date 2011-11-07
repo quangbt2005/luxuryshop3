@@ -776,6 +776,27 @@ CREATE TABLE IF NOT EXISTS `whos_online` (
   `last_page_url` text NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
+CREATE TABLE `chatter_code` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `code` varchar(256) DEFAULT NULL,
+  `customer` varchar(256) DEFAULT NULL,
+  `note` text,
+  `createddate` datetime DEFAULT NULL,
+  `updateddate` datetime DEFAULT NULL,
+  `deleted` enum('0','1') DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE `chat` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `chatter` varchar(512) DEFAULT NULL,
+  `chatter_code` bigint(20) DEFAULT NULL,
+  `content` text,
+  `createddate` datetime DEFAULT NULL,
+  `deleted` enum('0','1') DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
