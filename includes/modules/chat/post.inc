@@ -28,8 +28,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $_SESSION['flash']['post_chat_error'] = 'Mã an toàn không đúng.';
   }
 }
-//p($_POST);
-//pd($_SESSION);
-unset($_SESSION['chatting']['seccode']);
+
 header("Location: /chat/$page/list");
 ?>

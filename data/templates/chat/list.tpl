@@ -18,7 +18,7 @@
       return false;
     }
 
-    if ( plainValue.length > 4096 ){
+    if ( plainValue.length > 10000 ){
       alert( 'Nội dung quá dài' );
       return false;
     }
@@ -33,9 +33,6 @@
   <div class="wrapper" style="width: 715px; margin-left: 1px;">
   {TitleBox title="Feedback"}
   <table cellpadding="0" cellspacing="0" width="100%" class="chat">
-    {if $error != ''}
-    <tr><td><br /><font color="red"><h2>&nbsp;&nbsp;&nbsp;&nbsp;Mã khách hàng không đúng</h2></font></td></tr>
-    {/if}
     <tr>
       <td style="padding: 10px">
         {if $total_chat > 0}
@@ -60,12 +57,18 @@
   <div class="clear"></div>
   {if $total_chat > 0}
   {$pager}<div class="clear"></div>
-  <div class="t-right" style="width: 547px;"><span class="f10">Hiển thị {$chat_count} record từ {$chat_from} đến {$chat_to} trong tổng số {$total_chat} record</span></div>
+  <div class="t-right" style="width: 715px;"><span class="f10">Hiển thị {$chat_count} record từ {$chat_from} đến {$chat_to} trong tổng số {$total_chat} record</span></div>
   {else}
-  <div class="t-right" style="width: 547px;"><span class="f10">Không có record nào</span></div>
+  <div class="t-right" style="width: 715px;"><span class="f10">Không có record nào</span></div>
   {/if}
-  <form method="post" action="/chat/post/1">
-  <table cellpadding="0" cellspacing="0" width="547" border="0">
+  <form method="post" action="/chat/post/{$page}">
+  {if $error_count > 0}
+  {foreach from=$errs item=error}
+  <div class="w100p error_field t-left">&nbsp;&nbsp;<img height="10" border="0" width="10" title=" Lỗi " alt="Lỗi" src="/images/icons/error.gif">&nbsp;{$error}</div>
+  {/foreach}
+  <br>
+  {/if}
+  <table cellpadding="0" cellspacing="0" width="715" border="0">
     <tr>
       <td colspan="2" style="padding-top: 20px"><textarea id="ckChat" name="ckChat"></textarea></td>
     </tr>
