@@ -1,5 +1,4 @@
-<div><embed src="/images/banner_f18.swf" quality="high" type="application/x-shockwave-flash" wmode="transparent" width="960" height="280" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="always"></embed></div>
-<div style="position: absolute; top: 29px; left: 665px;"><img src="/images/sdc_logo_small.png" border="0"></div>
+<div><embed src="/images/banner_f19_4.swf" quality="high" type="application/x-shockwave-flash" wmode="transparent" width="960" height="280" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="always"></embed></div>
 <div class="w100p" style="margin-top: 2px">
   <div id="marquee_wrapper">
     <marquee>{$_MARQUEE}</marquee>
@@ -9,6 +8,7 @@
     <ul class="headerNavigation">
       <li style="border-right: 1px solid #cccccc"><a href="/home" class="href_home">TRANG CHỦ</a></li>
       <li style="border-right: 1px solid #cccccc"><a href="/dichvu" class="href_service">DỊCH VỤ</a></li>
-      <li><a href="/lienhe" class="href_contact">LIÊN HỆ</a></li>
+      <li style="border-right: 1px solid #cccccc"><a href="/lienhe" class="href_contact">LIÊN HỆ</a></li>
+	  <li><a href="/feedback" class="href_feedback">FEEDBACK</a></li>
     </ul>
 </div>
