@@ -30,43 +30,40 @@
   }
   </script>
   {/literal}
-  <div class="wrapper" style="width: 715px; margin-left: 1px;">
+  <div class="wrapper" style="width: 715px; margin-left: 1px;padding-bottom: 50px;color: #00f">
   {TitleBox title="Feedback"}
-  <table cellpadding="0" cellspacing="0" width="100%" class="chat">
+  <table cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td style="padding: 10px">
         {if $total_chat > 0}
         <table cellpadding="0" cellspacing="0" width="100%" border="0">
           {foreach from=$Chat_List item=chat}
           <tr>
-            <th>{$chat.chatter}</th>
-            <th class="chatdate">{$chat.createddate}</th>
+            <tr><td colspan="2" align="left"><img src="/images/transparent.png" width="1" height="10" border="0"></td></tr>
+            <th valign="top" align="left"><img src="/product_thumb.php?f=..@avatars/{$chat.showingavatar}&w=60&h=60" width="60" height="60" border="0">&nbsp;&nbsp;&nbsp;{$chat.chatter}</th>
+            <th valign="top" align="right" class="chatdate">{$chat.createddate}</th>
           </tr>
-          <tr>
-            <td colspan="2">{$chat.content}</td>
-          </tr>
+          <tr><td colspan="2" align="left"><img src="/images/transparent.png" width="1" height="5" border="0"></td></tr>
+          <tr><td colspan="2" align="left">{$chat.content}</td></tr>
+          <tr><td colspan="2" align="left" style="border-bottom: 3px solid #000"><img src="/images/transparent.png" width="1" height="50" border="0"></td></tr>
           {/foreach}
         </table>
-        {else}
-        <img src="/images/transparent.png" width="1" height="300" border="0">
         {/if}
       </td>
     </tr>
   </table>
-  </div>
-  <div class="clear"></div>
   {if $total_chat > 0}
   {$pager}<div class="clear"></div>
   <div class="t-right" style="width: 715px;"><span class="f10">Hiển thị {$chat_count} record từ {$chat_from} đến {$chat_to} trong tổng số {$total_chat} record</span></div>
   {else}
   <div class="t-right" style="width: 715px;"><span class="f10">Không có record nào</span></div>
   {/if}
-  <form method="post" action="/chat/post/{$page}">
+  <img src="/images/transparent.png" width="1" height="50" border="0">
+  <form method="post" action="/feedback/post/{$page}" enctype="multipart/form-data">
   {if $error_count > 0}
   {foreach from=$errs item=error}
   <div class="w100p error_field t-left">&nbsp;&nbsp;<img height="10" border="0" width="10" title=" Lỗi " alt="Lỗi" src="/images/icons/error.gif">&nbsp;{$error}</div>
   {/foreach}
-  <br>
   {/if}
   <table cellpadding="0" cellspacing="0" width="715" border="0">
     <tr>
@@ -78,16 +75,16 @@
     <tr>
       <td colspan="2"><table cellpadding="0" cellspacing="10" border="0">
         <tr>
-          <td align="left">Tên khách hàng</td>
+          <th align="left">Tên khách hàng</th>
           <td align="left"><input type="text" name="txtChatter" class="flat w200" onblur="onNameBlur()" value="Guest"></td></tr>
         </tr>
         <tr>
-          <td align="left">Avatar</td>
-          <td align="left"><input type="file" name="txtAvatar" class="flat w200">&nbsp;&nbsp;(Kích thước không lớn hơn 30KB)</td></tr>
+          <th align="left">Avatar</th>
+          <td align="left"><input type="file" name="txtAvatar" class="flat w200">&nbsp;&nbsp;(File ảnh kích thước không lớn hơn 30KB)</td></tr>
         </tr>
         <tr>
-          <td align="left">Mã khách hàng</td>
-          <td align="left"><input name="code" type="text" class="flat w150 t-right"></td>
+          <th align="left">Mã khách hàng</th>
+          <td align="left"><input name="txtCode" type="text" class="flat w150 t-right"></td>
         </tr>
       </table></td>
     </tr>
@@ -96,3 +93,5 @@
     </tr>
   </table>
   </form>
+  </div>
+  <div class="clear"></div>

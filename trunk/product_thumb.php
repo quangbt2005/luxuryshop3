@@ -36,6 +36,8 @@ function setTransparency($new_image,$image_source)
 }
 // ---------------------------------------------------------------------------------------------- //
 $f  = $_GET['f'];
+$f  = str_replace("@","/",$f);
+
 $img_dir = SYS_PRODUCTS_IMAGES;
 if(!is_file($img_dir.$f)){
   $f = '../noimage.jpg';

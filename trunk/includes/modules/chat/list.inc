@@ -22,7 +22,7 @@ $List          = ListChatForFrontEnd( $offset, $limit );
 $Paging_info["TOTAL_PAGE"]   = $total_pages;
 $Paging_info["CURRENT_PAGE"] = $current_page;
 $Paging_info["LIMIT"]        = $limit;
-$Paging_info["URL"]          = "/chat/:page/list";
+$Paging_info["URL"]          = "/feedback/:page/list";
 
 $pager = Paginate( $Paging_info );
 $chat_count = count($List);
@@ -38,7 +38,8 @@ if(($total_records % 10) == 0)
 else $smarty->assign( "page", $current_page );
 
 if(isset($_SESSION['flash']['post_chat_error'])){
-  $smarty->assign( 'error', $_SESSION['flash']['post_chat_error']);
+  $smarty->assign( 'errs', $_SESSION['flash']['post_chat_error']);
+  $smarty->assign( 'error_count', count($_SESSION['flash']['post_chat_error']) );
   unset($_SESSION['flash']['post_chat_error']);
 }
 
