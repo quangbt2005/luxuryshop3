@@ -16,9 +16,9 @@ $Routes = array(
       "/timkiem"                           => array('module'=>'search',    'page'=>'search'),
       "/timkiem/:key"                      => array('module'=>'search',    'page'=>'search'),
       "/timkiem/:key/:page"                => array('module'=>'search',    'page'=>'search'),
-      "/chat"                              => array('module'=>'chat',      'page'=>'list'),
-      "/chat/:page/list"                   => array('module'=>'chat',      'page'=>'list'),
-      "/chat/post/:page"                   => array('module'=>'chat',      'page'=>'post'),
+      "/feedback"                          => array('module'=>'chat',      'page'=>'list'),
+      "/feedback/:page/list"               => array('module'=>'chat',      'page'=>'list'),
+      "/feedback/post/:page"               => array('module'=>'chat',      'page'=>'post'),
       // ADMIN ---------------------------------------------------------------------------------- //
       "/admin/login"                         => array('module'=>'admin',     'page'=>'login'),
       "/admin/home"                          => array('module'=>'admin',     'page'=>'home'),
