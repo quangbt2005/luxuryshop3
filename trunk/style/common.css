@@ -624,3 +624,7 @@ table.product_description{}
   background: url("/images/icons/1319531337_yellow_phone.png") no-repeat scroll 8px 4px transparent;
   padding-left: 45px !important;
 }
+.href_feedback{
+  background: url("/images/icons/feedback-icon.png") no-repeat scroll 8px 4px transparent;
+  padding-left: 45px !important;
+}
