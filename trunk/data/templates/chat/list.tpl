@@ -30,8 +30,12 @@
   }
   </script>
   {/literal}
-  <div class="wrapper" style="width: 715px; margin-left: 1px;padding-bottom: 50px;color: #00f">
-  {TitleBox title="Feedback"}
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td style="padding: 10px" align="left"><span class="bigtitle">FEEDBACK</span></td>
+  </tr>
+  </table>
+  <div class="wrapper" style="width: 715px; margin-left: 1px;padding-bottom: 50px;color: #00f;border: 1px solid #ccc">
   <table cellpadding="0" cellspacing="0" width="100%">
     <tr>
       <td style="padding: 10px">
@@ -40,12 +44,12 @@
           {foreach from=$Chat_List item=chat}
           <tr>
             <tr><td colspan="2" align="left"><img src="/images/transparent.png" width="1" height="10" border="0"></td></tr>
-            <th valign="top" align="left"><img src="/product_thumb.php?f=..@avatars/{$chat.showingavatar}&w=60&h=60" width="60" height="60" border="0">&nbsp;&nbsp;&nbsp;{$chat.chatter}</th>
+            <th valign="top" align="left"><img src="/product_thumb.php?f=..@avatars/{$chat.showingavatar}&w=60&h=60" width="60" height="60" border="0">&nbsp;&nbsp;&nbsp;{$chat.chatter|escape:"html"}</th>
             <th valign="top" align="right" class="chatdate">{$chat.createddate}</th>
           </tr>
           <tr><td colspan="2" align="left"><img src="/images/transparent.png" width="1" height="5" border="0"></td></tr>
-          <tr><td colspan="2" align="left">{$chat.content}</td></tr>
-          <tr><td colspan="2" align="left" style="border-bottom: 3px solid #000"><img src="/images/transparent.png" width="1" height="50" border="0"></td></tr>
+          <tr><td colspan="2" align="left" style="color: #000">{$chat.content}</td></tr>
+          <tr><td colspan="2" align="left" style="border-bottom: 3px solid #00ff80"><img src="/images/transparent.png" width="1" height="50" border="0"></td></tr>
           {/foreach}
         </table>
         {/if}
@@ -53,10 +57,10 @@
     </tr>
   </table>
   {if $total_chat > 0}
-  {$pager}<div class="clear"></div>
-  <div class="t-right" style="width: 715px;"><span class="f10">Hiển thị {$chat_count} record từ {$chat_from} đến {$chat_to} trong tổng số {$total_chat} record</span></div>
+  {$pager}&nbsp;&nbsp;&nbsp;<div class="clear"></div>
+  <div class="t-right" style="width: 715px;"><span class="f10">Hiển thị {$chat_count} record từ {$chat_from} đến {$chat_to} trong tổng số {$total_chat} record&nbsp;&nbsp;&nbsp;</span></div>
   {else}
-  <div class="t-right" style="width: 715px;"><span class="f10">Không có record nào</span></div>
+  <div class="t-center" style="width: 715px;"><span class="f10 fb">Chưa có nhận xét nào&nbsp;&nbsp;&nbsp;</span></div>
   {/if}
   <img src="/images/transparent.png" width="1" height="50" border="0">
   <form method="post" action="/feedback/post/{$page}" enctype="multipart/form-data">
@@ -89,7 +93,7 @@
       </table></td>
     </tr>
     <tr>
-      <td colspan="2" style="padding-top: 20px" align="center"><input onclick="return onChatSubmit();" type="submit" class="w120" value="Gửi bài viết"></td>
+      <td colspan="2" style="padding-top: 20px" align="center"><input onclick="return onChatSubmit();" type="image" src="/images/btnfeedback.png" value="Gửi feedback" alt="Gửi feedback" name="Gửi feedback"></td>
     </tr>
   </table>
   </form>
