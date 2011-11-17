@@ -7,6 +7,8 @@ RewriteCond  %{REQUEST_URI} !source_editor.htm
 RewriteCond  %{REQUEST_URI} !link.htm
 RewriteCond  %{REQUEST_URI} !image.htm
 RewriteCond  %{REQUEST_URI} !upload_product_image.php
+RewriteCond  %{REQUEST_URI} !bill.html
+RewriteCond  %{REQUEST_URI} !bill.php
 
 RewriteRule !\.(js|ico|txt|gif|jpg|png|bmp|css|swf)$ index.php [NC]
 #php_value magic_quotes_gpc on
