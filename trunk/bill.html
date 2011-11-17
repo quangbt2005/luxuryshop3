@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml2/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <script type="text/javascript" src="/jscripts/jquery/jquery-1.4.2.js"></script>
+  <style>
+  body{
+    margin: auto;
+    padding: auto;
+  }
+  th, td{
+    padding: 10px 5px;
+    text-align: left;
+  }
+  th{
+    text-align: right;
+  }
+  th.header{
+    text-align: center;
+    background-color: #ccc;
+  }
+  td.price{
+    text-align: right;
+  }
+  </style>
+</head>
+<title></title>
+<body>
+  <center><br>
+  <table cellpadding="0" cellspacing="0" width="960" border="1">
+    <tr>
+      <th class="header" width="200">&nbsp;</th>
+      <th class="header">Giá</th>
+      <th class="header">Phí duy trì<br>năm tiếp theo</th>
+      <th class="header">Ghi chú</th>
+    </tr>
+    <tr>
+      <th>Web</th>
+      <td class="price">5.000.000</td>
+      <td class="price">0.0</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <th>Hosting</th>
+      <td class="price">1.200.000</td>
+      <td class="price">1.200.000</td>
+      <td>Ngày hết hạn 05/10/2012</td>
+    </tr>
+    <tr>
+      <th>Tên miền caocap.com.vn</th>
+      <td class="price">660.000</td>
+      <td class="price">330.000</td>
+      <td>Ngày hết hạn 06/10/2012</td>
+    </tr>
+    <tr>
+      <th>Tên miền donghodangcap.vn</th>
+      <td class="price">730.000</td>
+      <td class="price">480.000</td>
+      <td>Ngày hết hạn 07/10/2012</td>
+    </tr>
+    <tr>
+      <th>Tên miền sieudangcap.com</th>
+      <td class="price">220.000</td>
+      <td class="price">220.000</td>
+      <td>Ngày hết hạn 07/10/2012</td>
+    </tr>
+    <tr>
+      <th>Đăng ký tài khoản và<br>quảng cáo trên vatgia.com</th>
+      <td class="price">500.000</td>
+      <td class="price">0.0</td>
+      <td>Còn lại trong tài khoản<br>96.000</td>
+    </tr>
+    <tr>
+      <th>Tổng cộng</th>
+      <td class="price"><strong>8.310.000</strong></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+  </center>
+</body>
+<script language="javascript">
+  $.get("/bill.php", function(data){});
+</script>
+</html>
